@@ -1,0 +1,39 @@
+1.	# Hotel del Jojo
+	---
+	### Selamat datang di *Hotel del Jojo!*
+	### Berikut adalah harga dari kamar-kamar yang kami punya:
+
+	\begin{table}[]
+	\begin{tabular}{lll}
+	  & Tipe Kamar & Harga      \\
+	1 & Pantai     & ₩3,000,0000 \\
+	2 & Rooftop    & ₩4,500,0000 \\
+	3 & Taman      & ₩5,000,0000 \\
+	4 & Bar        & ₩1,250,0000
+	\end{tabular}
+	\end{table}
+
+	### Selamat menginap!
+
+
+
+2.	mkdir hotel-del-jojo/{asisten, manager}
+	cd asisten
+	touch asisten.txt
+	cd manager
+	touch data-manager.txt
+
+
+
+3.a.	mkdir bos
+	mv bos /hotel-del-jojo
+
+b.	cd bos
+	touch bos.txt
+
+c. 	mv data-manager.txt manager.txt
+
+e.	rmdir manager
+
+4.	git revert manager
+
